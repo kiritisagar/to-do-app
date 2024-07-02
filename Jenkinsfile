@@ -3,6 +3,8 @@ pipeline {
    
     environment{
         SCANNER_HOME= tool 'sonar-scanner'
+	JAVA_HOME = tool 'jdk'
+        MAVEN_HOME = tool 'maven'
     }
 
     stages {
